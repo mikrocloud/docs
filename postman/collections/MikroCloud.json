@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "fcfd5a0e-8ae0-41fd-9610-a7d5fc5a1cb2",
+		"name": "MikroCloud",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "7151466-fcfd5a0e-8ae0-41fd-9610-a7d5fc5a1cb2"
+	},
+	"item": [
+		{
+			"name": "Accounts",
+			"item": [
+				{
+					"name": "New Request",
+					"id": "522378e1-30a1-455f-98a5-1ce5fdf381a0",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://stripe.test/v1/account/prices",
+							"protocol": "http",
+							"host": [
+								"stripe",
+								"test"
+							],
+							"path": [
+								"v1",
+								"account",
+								"prices"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "63180a85-7c2e-4a7b-8f53-b28d1c018d27"
+		}
+	]
+}
