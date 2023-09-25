@@ -20,7 +20,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "",
+							"raw": "{\n    \"test\": {{spacecraftId}}\n}",
 							"options": {
 								"raw": {
 									"language": "json"

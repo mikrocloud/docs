@@ -14,5 +14,9 @@ files[] = {"id":"7151466-fcfd5a0e-8ae0-41fd-9610-a7d5fc5a1cb2","path":"MikroClou
 [config.relations.collections.metaData]
 
 [config.relations.apiDefinition]
+files[] = {"path":"index.yaml","metaData":{}}
+files[] = {"path":"New Folder/New.yaml","metaData":{}}
 
 [config.relations.apiDefinition.metaData]
+rootFiles[] = index.yaml
+type = openapi:3
