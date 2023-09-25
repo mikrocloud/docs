@@ -18,6 +18,15 @@
 					"request": {
 						"method": "GET",
 						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
 						"url": {
 							"raw": "http://stripe.test/v1/account/prices",
 							"protocol": "http",
@@ -30,7 +39,8 @@
 								"account",
 								"prices"
 							]
-						}
+						},
+						"description": "# etst\n\nset"
 					},
 					"response": []
 				}
