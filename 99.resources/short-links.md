@@ -1,5 +1,5 @@
 ---
-title: "MikroCloud Short Links"
+title: "Short Links"
 ---
 
 ## Introduction
