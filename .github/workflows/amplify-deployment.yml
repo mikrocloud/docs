@@ -1,0 +1,18 @@
+## on push to main call curl -X POST -d {} "https://webhooks.amplify.us-east-1.amazonaws.com/prod/webhooks?id=747fa0c0-3854-43ce-88af-07396551c3a9&token=AQrtGZdL42fHTmnOJ6rE14XVyaPpOm2Uu4CT4CalG8&operation=startbuild" -H "Content-Type:application/json"
+name: Amplify Deployment
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Call Amplify Webhook
+        run: curl -X POST -d {} "https://webhooks.amplify.us-east-1.amazonaws.com/prod/webhooks?id=${{ secrets.AWS_ID }}&token=${{ secrets.AWS_TOKEN }}&operation=startbuild" -H "Content-Type:application/json"
