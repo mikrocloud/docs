@@ -3,7 +3,8 @@ title: "Password Policy"
 ---
 
 Where possible, MikroCloud auto-generates passwords for users, but
-in some cases, users are required to set their passwords. This document outlines the password policy for MikroCloud.
+in some cases, users are required to set their own passwords.
+This document outlines the password policy for MikroCloud.
 
 ## Password Requirements
 
