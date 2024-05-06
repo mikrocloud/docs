@@ -1,5 +1,5 @@
 ---
-title: "MikroCloud Password Policy"
+title: "Password Policy"
 ---
 
 ## Introduction
