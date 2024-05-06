@@ -14,17 +14,17 @@ shortening service to create short links that redirect to the long links.
 MikroCloud owns the domain `mkcld.link` for creating short links.
 The format of a short link is as follows:
 
-`https://mkcld.link/{short-code}`
+```text
+https://mkcld.link/{short-code}
+```
 
 The short code is a unique identifier generated for each long link. The short code is used to look up the long link in
 the MikroCloud database and redirect the user to the long link.
 
 ## Short Link Rate Limits
 
-The upper limit when accessing short links is `60` requests per minute, per IP address. This limit is enforced on the
-Short Link service.
-Despite this limit, the target link will often have its own rate limits, which may be lower than the Short Link service
-rate limit.
+The upper limit when accessing short links is `60` requests per minute, per IP address.
+Despite this limit, the target link will often have its own rate limits, and may refuse requests autonomously.
 
 ## Short Link Expiry
 
