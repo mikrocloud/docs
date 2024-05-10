@@ -28,5 +28,4 @@ Despite this limit, the target link will often have its own rate limits, and may
 
 ## Expiry
 
-The Short Link service does not expire short links. The lifetime of a short link is the same as the lifetime of the long
-link it redirects to.
+If not specified by the service that generated the short link, the short link will expire after `90` days.
