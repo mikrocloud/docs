@@ -4,7 +4,7 @@ title: "Regional Servers"
 
 ## Purpose of Regional Servers
 
-Our regional servers play a crucial role in the robustness and efficiency of the MikroCloud management VPN
+Our regional servers play a crucial role in the robustness and efficiency of the MikroCloud [management VPN](/documentation/deployments/management-vpn)
 infrastructure.
 
 Positioned strategically across various geographical locations, these servers ensure optimal routing,

@@ -15,8 +15,6 @@ The management VPN uses OpenVPN, configured to connect to `mgnt.mkcld.io` over `
 particularly resilient for routers situated behind NAT firewalls, ensuring stable connectivity under various network
 conditions.
 
-The choice of TCP is due to its reliability in maintaining connections through such environments.
-
 ![Management VPN](https://cdn.mkcld.io/2a70b135b38784654965b562a2444b415f22af74993a5163f3431ea0e362d0bb.png)
 
 
@@ -44,6 +42,9 @@ See the list of [Regional Servers](/documentation/resources/regional-servers) fo
 Each management VPN tunnel is uniquely identified by a v4 UUID, which is specific to each site. This UUID is also used
 as the name for the VPN, providing a clear link between the tunnel and its associated site. The corresponding PPP
 profile carries the same name, ensuring consistency across configurations.
+
+![Management VPN tunnel](https://cdn.mkcld.io/3fd067bcd349237079bc8d4f29f615739aef3b984a7e1c1e34044677cd93939f.png)
+
 
 ## Security and IP Addressing
 
@@ -85,6 +86,9 @@ This data aids in diagnosing and optimizing VPN performance.
 In the event of accidental tunnel deletion, the tunnel can be recreated through the site overview in the MikroCloud
 portal. This action triggers a job that clears all previous configurations for the tunnel on the MikroTik router and
 recreates it based on the latest parameters.
+
+![Recreate management VPN](https://cdn.mkcld.io/f09006b3ad7c750346f99a072c1fb16bbe754e84b7a35d6efb6d57f60330ae2e.png)
+
 
 ## API Usage and Restrictions
 
