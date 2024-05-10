@@ -2,6 +2,11 @@
 title: "Supported SMS Regions"
 ---
 
+:::warning
+SMS Delivery services are not available in all regions. Please check the [list below](#unsupported-regions-and-services)
+to see if your region is supported.
+:::
+
 ## Introduction
 
 This document provides an overview of the countries where SMS delivery services by MikroCloud are supported. It includes
