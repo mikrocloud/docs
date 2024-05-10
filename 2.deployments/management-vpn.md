@@ -43,6 +43,8 @@ Each management VPN tunnel is uniquely identified by a v4 UUID, which is specifi
 as the name for the VPN, providing a clear link between the tunnel and its associated site. The corresponding PPP
 profile carries the same name, ensuring consistency across configurations.
 
+The easiest way to identify it is by the comment: `MikroCloud: Management Tunnel`.
+
 ![Management VPN tunnel](https://cdn.mkcld.io/3fd067bcd349237079bc8d4f29f615739aef3b984a7e1c1e34044677cd93939f.png)
 
 
@@ -81,7 +83,7 @@ OpenVPN logs from regional servers are streamed and parsed. We record the follow
 
 This data aids in diagnosing and optimizing VPN performance.
 
-## Remote Management and Recovery
+## Recovery of the Management VPN
 
 In the event of accidental tunnel deletion, the tunnel can be recreated through the site overview in the MikroCloud
 portal. This action triggers a job that clears all previous configurations for the tunnel on the MikroTik router and
@@ -90,7 +92,7 @@ recreates it based on the latest parameters.
 ![Recreate management VPN](https://cdn.mkcld.io/f09006b3ad7c750346f99a072c1fb16bbe754e84b7a35d6efb6d57f60330ae2e.png)
 
 
-## API Usage and Restrictions
+## Usage and Restrictions of the Synchronous API
 
 Changes to the router configuration are generally not performed through the synchronous API due to its limitations in
 delivery assurance and lack of idempotent request handling. This API is primarily used for real-time read operations
