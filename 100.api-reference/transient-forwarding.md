@@ -157,7 +157,7 @@ A successful deletion returns a `204 No Content` response.
 - **Duration**: The maximum duration for a port forward is 1 day.
 - **Default Gateway Requirement**: The device behind the MikroTik router to where traffic is being forwarded must use
   the MikroTik as its default gateway. If not, an extra NAT rule will need to be added programmatically. Look at
-  the [asynchronous API](/documentation/api-reference/executing-jobs#asynchronous-execution) for guidance on added a
+  the [asynchronous API](/documentation/api-reference/executing-jobs#asynchronous-execution) for guidance on adding a
   masquerade rule to overcome this limitation.
 
 ## Transient Port Forward Life Cycle
