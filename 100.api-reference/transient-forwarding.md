@@ -160,5 +160,24 @@ A successful deletion returns a `204 No Content` response.
   the [asynchronous API](documentation/api-reference/executing-jobs#asynchronous-execution) for guidance on added a
   masquerade rule to overcome this limitation.
 
-By following these guidelines and using the provided endpoints, you can effectively manage transient port forwarding for
-your MikroTik routers.
+## Transient Port Forward Life Cycle
+
+The lifecycle of a transient port forward involves several key steps to ensure proper configuration, usage, and cleanup:
+
+1. **Creation**: When a transient port forward is created, a job is dispatched to the router. The necessary
+   configuration is added to the router to establish the port forward.
+
+2. **Usage**: The port forward is active and can be used to access the specified device behind the router. The user must
+   connect to the specified entry point and port, which forwards traffic to the destination address and port.
+
+3. **Expiration**: Each transient port forward has a defined expiration time (maximum of 1 day). As the expiration time
+   approaches, the time-to-expire property updates accordingly.
+
+4. **Revocation**: If necessary, a transient port forward can be revoked early by issuing a delete request to the API
+   endpoint. This will remove the port forward configuration from the router.
+
+5. **Automatic Cleanup**: Upon expiration or revocation, a job is dispatched to the router to remove the port forward
+   configuration. This ensures that no stale configurations remain on the router.
+
+By following these steps and using the provided API endpoints, you can effectively manage the lifecycle of transient
+port forwards for your MikroTik routers.
