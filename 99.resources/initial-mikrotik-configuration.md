@@ -98,4 +98,4 @@ More detailed information on upgrading can be found at http://help.mikrotik.com/
 
 
 ## Congratulations on Setting Up Your Initial Access
-🎉 Congrats, your MikroTik router is not ready to add to MikroCloud, you can go to [this](/documentation/getting-started/adding-your-first-router) page to add your router to your MikroCloud Portal
+🎉 Congrats, your MikroTik router is now ready to add to MikroCloud, you can go to [this](/documentation/getting-started/adding-your-first-router) page to add your router to your MikroCloud Portal.
