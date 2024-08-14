@@ -45,29 +45,29 @@ Detailed instructions for downloading and using Winbox can be found [here](https
 
 ### Establish Internet Access
 Before proceeding further, the MikroTik itself will need to be able to reach the internet.
-
 ##### Check for an IP Address
-Using Winbox click ```IP``` on the left-side, main menu. From the sub menu, click ```DHCP Client```.
+Using Winbox click `IP` on the left-side, main menu. From the sub menu, click `DHCP Client`.
 
-If you see an entry that shows **ether1** in the interface column, and an IP address that is not all ```0's (0.0.0.0)``` in the ```IP Address``` column, then you can skip to the next step and proceed to [Confirm Internet Access](#confirm-internet-access)
+If you see an entry that shows **ether1** in the interface column, and an IP address that is not all `0's (0.0.0.0)` in the `IP Address` column, then you can skip to the next step and proceed to [Confirm Internet Access](#confirm-internet-access)
+
 
 #### Get an IP address with DHCP
-1. clcik on the ```Add New``` button.
+1. clcik on the `Add New` button.
 2. Type **defconf** in the comment field.
 3. Select **ether1** in the Inteface drop-down menu.
-4. Ensure that ```Use Peer DNS``` is ticked.
-5. Click ```Apply```
-6. click ```OK```
+4. Ensure that `Use Peer DNS` is ticked.
+5. Click `Apply`
+6. click `OK`
 
 You should now see an entry and there should be a valid IP address in the **IP Address column**
 
 #### Confirm Internet Access
-Using Winbox, open a terminal by clicking on the ```New Terminal``` button.
+Using Winbox, open a terminal by clicking on the `New Terminal` button.
 * You may need to enter the username and password you set for the device earlier.
 
 When you have logged in and see a command prompt, type in the following command
 
-```ping mkcld.io```
+`ping mkcld.io`
 * Then press **Enter**
 
 If you see a continuous stream of pings, then you have internet access and you can continue.
@@ -75,22 +75,22 @@ If you see a continuous stream of pings, then you have internet access and you c
 ### Update Firmware On The MikroTik
 Using Winbox, use the left-side menu and choose **System --> Packages**
 
-1. Click on ```Check for Updates```
-2. Select **stable** from the ```Channel``` drop down menu.
-3. Click the ```Check for Updates``` button.
+1. Click on `Check for Updates`
+2. Select **stable** from the `Channel` drop down menu.
+3. Click the `Check for Updates` button.
 4. Note the **Installed Version** and **Latest Version** numbers.
 
 ### Update Current Major Version of the Firmware
 If the version numbers don't match, download & install the latest version.
 
-:::note
+:::warning
 The device will restart after the new firmware is installed. Once that's done, log in and return to the **Check for Updates page**.
 :::
 
 #### Upgrade to the Latest Major Version
 If the Channel drop-down menu includes an "upgrade" option, select that and then download & install the most recent major version.
 
-Return to the ```Check for Updates``` page one last time and ensure that you have the latest version of the most recent upgrade.
+Return to the `Check for Updates` page one last time and ensure that you have the latest version of the most recent upgrade.
 
 :::note
 More detailed information on upgrading can be found at http://help.mikrotik.com/docs/display/ROS/Upgrading+and+installation
