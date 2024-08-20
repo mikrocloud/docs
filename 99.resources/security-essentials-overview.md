@@ -17,7 +17,6 @@ These IP addresses are intended for use within private networks, and theyre not 
 This is the only category that only updates **monthly**.
 :::
 
-
 #### FullBogons by Team Cymru
 This list contains IPs that are not assigned to any specific organization or individual and should not originate any legitimate traffic on the internet. These addresses are sometimes used in malicious activities such as spoofing attacks.
 
