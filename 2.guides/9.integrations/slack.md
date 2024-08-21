@@ -3,17 +3,14 @@ title: Slack
 toc: true
 ---
 
----
-
-<!-- :::Warning
-This page is currently being worked on, please check back frequently to see when it updates.
-::: -->
-
 This document provides a step-by-step guide for Integrating your MikroCloud portal with Slack using webhooks. This integratin allows you to receive notifications about faults on your devices from MikroCloud directly to your Slack channels.
+
+---
 
 ## Prerequisites:
 * Access to a Slack workspace with permissions to add apps/ workspaces and manage integrations.
 
+---
 ## Setting up the Slack Webhook
 Now, let's get to the fun stuff and set up a webhook integration.
 
@@ -89,6 +86,7 @@ After you have clicked **Install**, you will be taken to a web page, where you c
 
 Your Slack integration is now successfully set up; if any one of your devices experiences a fault, you will be notified from within your slack channel.
 
+---
 ## Troubleshooting your MikroCloud-Slack Integration
 * Verify that your webhook URL is correct.
 * Verify that your Slack channel allows external connections.
