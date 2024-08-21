@@ -1,5 +1,5 @@
 ---
-title: MS Teams
+title: Microsoft Teams
 toc: true
 ---
 
