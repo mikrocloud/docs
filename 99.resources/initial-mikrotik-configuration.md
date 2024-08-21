@@ -40,7 +40,7 @@ The router will reboot, and after approximately 10-20 seconds, it should display
 #### Option 2: Reset via the Winbox Utility
 
 MikroTik provides a utility program called Winbox that allows you to find devices on your network and manage their configuration.
-Detailed instructions for downloading and using Winbox can be found [here](https://help.mikrotik.com/docs/display/ROS/Management+Tools).
+Detailed instructions for downloading and using Winbox can be found [here](https://help.mikrotik.com/docs/display/ROS/WinBox).
 
 
 ### Establish Internet Access
