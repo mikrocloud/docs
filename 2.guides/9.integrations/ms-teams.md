@@ -87,5 +87,5 @@ Your MS Teams integration is now successfully set up; if any one of your devices
 ## Troubleshooting your MikroCloud-Teams Integration
 * Verify that your webhook URL is correct.
 * Verify that your MS Teams channel allows external connections.
-* Verify that your Slack application is updated.
+* Verify that your MS Teams application is updated.
 * Contact support should you still experience any issues.
