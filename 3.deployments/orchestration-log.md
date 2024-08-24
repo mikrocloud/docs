@@ -24,9 +24,11 @@ The Orchestration log is presented as a table with the following columns:
 #### Step 1: Navigate to your Site
 1. From your Dashboard, navigate to your `Sites`.
 <!-- Insert Image -->
-![picture 1](https://cdn.mkcld.io/46a1fa4982767eb349284359180b94a39fa19c6fd46df760467468150659955d.jpg)  
+![picture 9](https://cdn.mkcld.io/dd74007870a855642dd9e4fa8fb5009e7be1358b7025a6d4aaa546f84bf29107.jpg)  
 
-2. Click on the specific site for which you want to see the **Orchestration Log**.
+
+
+1. Click on the specific site for which you want to see the **Orchestration Log**.
 <!-- Insert Image -->
 ![picture 2](https://cdn.mkcld.io/810a882b9a2599ac18f8cefeb8fb9f567ae8a4ab3f5b3fa39b44653b47fa1ef4.png)  
 
