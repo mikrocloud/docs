@@ -62,12 +62,7 @@ Clicking on the name of the device will take you to the site's `Overview Page`.
 
 <!-- Insert Image -->
 
-### Features
+#### Features
 <!-- * All lines/ items <span style="color: red;">highlighted in  red</span> means that there is a difference in the configuration.
 * <span style="background-color: red; color: white;">This text is highlighted in red.</span> -->
 * All lines/ items <span style="background-color: rgba(255, 18, 18, 0.7); color: white;">highlighted in  red</span> means that there is a difference in the configuration.
-
-
-:::warning
-This page is still currently being worked on, check back frequently.
-:::
