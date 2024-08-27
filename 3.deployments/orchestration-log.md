@@ -40,6 +40,7 @@ The Orchestration log is presented as a table with the following columns:
 4. The **Orchestration Log:**
 ![picture 4](https://cdn.mkcld.io/c412d2909c63f25e2c2aeb21466d7340c9a9275159a64991e0bac26702874133.png)  
 
+---
 ## Viewing an Expanded Log Entry
 1. Clicking on an entry in the **Orchestration log** opens a detailed view with expanded information about that specific action that was executed.
 
@@ -59,6 +60,5 @@ The Orchestration log is presented as a table with the following columns:
 ![picture 6](https://cdn.mkcld.io/b7921e6ffa9e683d319a69e46de2d9f082ed83f348ff81f2b93dfa616ddd805a.jpg)  
 
 * From this page, you can also copy the entire JSON payload should you need to use it for further analysis or troubleshooting.
----
 
-This guide provides a comprehensive overview of how to navigate and use the Orchestration Log feature in MikroCloud. By understanding and utiliziing this feature, you can gain deeper insights into the automated actions, manage your network more effectively and ensure better control and transparency over device operations.
+<!-- This guide provides a comprehensive overview of how to navigate and use the Orchestration Log feature in MikroCloud. By understanding and utiliziing this feature, you can gain deeper insights into the automated actions, manage your network more effectively and ensure better control and transparency over device operations. -->

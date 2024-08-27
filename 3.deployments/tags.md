@@ -1,6 +1,6 @@
 ---
 title: Device Tags
-toc: false
+toc: true
 ---
 
 Tags serve as a system for categorizing devices. By creating and assigning these tags, you can effectively organize and filter devices based on custom categories that are meaningful for your environment and use case.
@@ -12,6 +12,23 @@ Tags serve as a system for categorizing devices. By creating and assigning these
 | Tag Assignment: | Once a tag is created, it can be applied to any device. Multiple tags can be assigned to a single device/ site, allowing you to customize your system. |
 | Device Filtering: | While on the `Sites` page, you can use tags to filter the list of devices. This helps you to quickly and efficiently locate devices associated with the specific tags. |
 
+---
+## Use Cases
+Let's talk about some cool use cases for these tags. In the end, you can customize this tagging system however you like.
+
+| Use Case| Desc: | Example|
+| :---| :---| :---|
+| Categorizing by Location | In environments where devices are spread across multiple physical locations, such as different buildings, floors, or regions, tags can be used to indicate device location. | **"Floor 1", "North Wing", "Warehouse", NY Office"**|
+| Group Devices by Function or Role | Tags can be used to organize devices based on their function or operation role. |**"Wi-Fi AP", "Core Router", "HomeLab", "Testing", "Prod", "Backup"** |
+| Tracking Maintenance and Status | Tags can be used to track the status of devices, such as whether they are active, undergoing maintenance, or in a critical state. | **"Under Maintenance", "Critical", "Inactive", "Needs Review"** |
+|Prioritization | In situations where devices require higher priority or needs special monitoring.| **"High Priority", "Critical Service", "VIP", "Emergency"**|
+| Grouping Devices by Project or Client | For Teams managing multiple projects or clients, these tags can be used to group devices based on the associated project or customer. | **"Client A", "Project X", "Customer Support", "R&D"** |
+| Identifying Devices for Scheduled Tasks | Tags can help you schedule tasks like updates, audits or inspections by marking the relevant devices in advance.| **"Scheduled Update", "Audit Pending", "Inspection Q2**|
+|Device Lifecycle Management| These tags can be used to indicate were a  device is in its lifecycle" | **"EoL", "Ready for Decommision", "New Deployment**|
+
+These are just a few examples how how tags can be used in different scenarios. The flexability of these color-coded and labeled tags allows you to create customized and intuitive categories that align with your company's specific workflow.
+
+---
 ## Creating Tags:
 Tags are created and applied directly from the `Sites` page from your portal. This section will take you through creating and applying these tags to your devices.
 
@@ -25,7 +42,6 @@ Tags are created and applied directly from the `Sites` page from your portal. Th
 3. Once the Site is highlighted, click on the `Add Tag` button. This will open a small customization window.
 <!-- Insert image -->
 ![picture 1](https://cdn.mkcld.io/d9a726b4156e3222435190a146fc18c3fea76d60411a072caf11eb4ccd23e984.jpg)  
-
 
 
 #### Step 2: Customizing the tag
@@ -46,6 +62,7 @@ You can continue to add these tags to your other devices.
 You can only apply up to a maximum of **6** tags to a single device.
 :::
 
+---
 ## Removing a Tag
 1. From your dashboard, navigate to your `Sites`.
 <!--  Insert image -->
@@ -67,18 +84,4 @@ That's it, the tag has now been removed from your site.
 If you only have **1** tag, removing it from all of your sites will also completely delete the tag.
 :::
 
-## Use Cases
-Let's talk about some cool use cases for these tags. In the end, you can customize this tagging system however you like.
-
-| Use Case| Desc: | Example|
-| :---| :---| :---|
-| Categorizing by Location | In environments where devices are spread across multiple physical locations, such as different buildings, floors, or regions, tags can be used to indicate device location. | **"Floor 1", "North Wing", "Warehouse", NY Office"**|
-| Group Devices by Function or Role | Tags can be used to organize devices based on their function or operation role. |**"Wi-Fi AP", "Core Router", "HomeLab", "Testing", "Prod", "Backup"** |
-| Tracking Maintenance and Status | Tags can be used to track the status of devices, such as whether they are active, undergoing maintenance, or in a critical state. | **"Under Maintenance", "Critical", "Inactive", "Needs Review"** |
-|Prioritization | In situations where devices require higher priority or needs special monitoring.| **"High Priority", "Critical Service", "VIP", "Emergency"**|
-| Grouping Devices by Project or Client | For Teams managing multiple projects or clients, these tags can be used to group devices based on the associated project or customer. | **"Client A", "Project X", "Customer Support", "R&D"** |
-| Identifying Devices for Scheduled Tasks | Tags can help you schedule tasks like updates, audits or inspections by marking the relevant devices in advance.| **"Scheduled Update", "Audit Pending", "Inspection Q2**|
-|Device Lifecycle Management| These tags can be used to indicate were a  device is in its lifecycle" | **"EoL", "Ready for Decommision", "New Deployment**|
-
-These are just a few examples how how tags can be used in different scenarios. The flexability of these color-coded and labeled tags allows you to create customized and intuitive categories that align with your company's specific workflow.
 
