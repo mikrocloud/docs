@@ -3,7 +3,7 @@ title: "Faults"
 toc: false
 ---
 
-THis document provides an overview of the different types of faults that are logged and monitored by MikroCloud. it covers how faults are identified, categorized and logged, along with a detailed look at the **Recent Faults Dashboard and the Faults Dashboard**, as well as how it can be used to monitor these events.
+Tis document provides an overview of the different types of faults that are logged and monitored by MikroCloud. it covers how faults are identified, categorized and logged, along with a detailed look at the **Recent Faults Dashboard and the Faults Dashboard**, as well as how it can be used to monitor these events.
 
 ---
 ## What are Faults?
