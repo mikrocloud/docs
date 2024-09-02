@@ -2,13 +2,14 @@
 title: "Management VPN"
 ---
 
-## Overview
+<!-- ## Overview -->
 
 This document outlines the setup and configuration of the management VPN when a MikroTik router is integrated into the
 MikroCloud platform.
 The management VPN facilitates secure management and operational monitoring through an OpenVPN
 tunnel.
 
+---
 ## VPN Connectivity
 
 The management VPN uses OpenVPN, configured to connect to `mgnt.mkcld.io` over `TCP` port `8443`. This configuration is
@@ -17,7 +18,7 @@ conditions.
 
 ![Management VPN](https://cdn.mkcld.io/2a70b135b38784654965b562a2444b415f22af74993a5163f3431ea0e362d0bb.png)
 
-
+---
 ## Regional Management Clusters
 
 The VPN tunnels terminate on regional management clusters that use geographical DNS routing to optimize connection
@@ -37,6 +38,7 @@ static DNS entries or routes that attempt to alter how the VPN connects to the m
 
 See the list of [Regional Servers](/documentation/resources/regional-servers) for more information.
 
+---
 ## Identification and Authentication
 
 Each management VPN tunnel is uniquely identified by a v4 UUID, which is specific to each site. This UUID is also used
@@ -47,7 +49,7 @@ The easiest way to identify it is by the comment: `MikroCloud: Management Tunnel
 
 ![Management VPN tunnel](https://cdn.mkcld.io/3fd067bcd349237079bc8d4f29f615739aef3b984a7e1c1e34044677cd93939f.png)
 
-
+---
 ## Security and IP Addressing
 
 The management tunnel employs AES CBC encryption for securing data, with the server handling all certificate
@@ -55,6 +57,7 @@ requirements. This means there is no need for manual certificate installation on
 operate within the RFC reserved address space for CGNAT (`100.64.0.0/10`) to avoid conflicts with private network
 addresses used within customer infrastructures.
 
+---
 ## Management Traffic Types
 
 The management VPN serves as a secure conduit for various types of operational data including:
@@ -70,6 +73,7 @@ The management VPN serves as a secure conduit for various types of operational d
 The management VPN is restricted to transporting only the listed types of traffic.
 It does not support connection to other MikroTik routers or any unlisted data types.
 
+---
 ## Logging and Monitoring
 
 OpenVPN logs from regional servers are streamed and parsed. We record the following information:
@@ -83,6 +87,7 @@ OpenVPN logs from regional servers are streamed and parsed. We record the follow
 
 This data aids in diagnosing and optimizing VPN performance.
 
+---
 ## Recovery of the Management VPN
 
 In the event of accidental tunnel deletion, the tunnel can be recreated through the site overview in the MikroCloud
@@ -91,7 +96,7 @@ recreates it based on the latest parameters.
 
 ![Recreate management VPN](https://cdn.mkcld.io/f09006b3ad7c750346f99a072c1fb16bbe754e84b7a35d6efb6d57f60330ae2e.png)
 
-
+---
 ## Usage and Restrictions of the Synchronous API
 
 Changes to the router configuration are generally not performed through the synchronous API due to its limitations in
