@@ -47,10 +47,10 @@ The Orchestration log is presented as a table with the following columns:
 #### The expanded log entry provides:
 | Action: | Description: |
 | ---| ---|
-|Timestamped Events:| A breakdown of each step in the process, from job creatioin to completion or failure.|
+|Timestamped Events:| A breakdown of each step in the process, from job creation to completion or failure.|
 | Device Information: | Details about the target device(s) involved, including site ID, device name, and associated metadata. |
 | Job Context: | A JSON payload containing key data points, such as the job ID, Customer ID, idempotency key, and script content if applicable. |
-| Status Message: | Specific messages indicating the progress or outcome of the job, such as "Job created", "Downloaded", "Expres execution requested" or "Failed". |
+| Status Message: | Specific messages indicating the progress or outcome of the job, such as "Job created", "Downloaded", "Express execution requested" or "Failed". |
 
 #### Examples for Log Expanded Log Entries
 ![picture 5](https://cdn.mkcld.io/1c9c60cf9718d3328f9bacbf5a0194f1f35c7ec5f439c1a7d9a5830e7c144ea5.png)  
@@ -61,4 +61,4 @@ The Orchestration log is presented as a table with the following columns:
 
 * From this page, you can also copy the entire JSON payload should you need to use it for further analysis or troubleshooting.
 
-<!-- This guide provides a comprehensive overview of how to navigate and use the Orchestration Log feature in MikroCloud. By understanding and utiliziing this feature, you can gain deeper insights into the automated actions, manage your network more effectively and ensure better control and transparency over device operations. -->
+<!-- This guide provides a comprehensive overview of how to navigate and use the Orchestration Log feature in MikroCloud. By understanding and utilizing this feature, you can gain deeper insights into the automated actions, manage your network more effectively and ensure better control and transparency over device operations. -->

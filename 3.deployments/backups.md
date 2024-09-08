@@ -16,7 +16,7 @@ Configuration backups are crucial for maintaining the integrity and recoverabili
 
 
 ---
-## Managiong Configuration Backups
+## Managing Configuration Backups
 You can access the backup scripts and manage backups in **2 different ways**
 
 ### Method 1: From the Device Overview Page
