@@ -59,7 +59,7 @@ If you have not had any faults within **24 hours**, there will be no entries her
 
 ---
 ## Site-Specific Faults
-This page provides site-specific insights into the historical performance and reliabiliability of your device. This page will also display a larger amount of faults than the **Recent Faults** tile on your Dashboard.
+This page provides site-specific insights into the historical performance and reliability of your device. This page will also display a larger amount of faults than the **Recent Faults** tile on your Dashboard.
 
 #### Accessing Site-Specific Fault Event Logs
 1. From your **Dashboard**, navigate to your site list.
